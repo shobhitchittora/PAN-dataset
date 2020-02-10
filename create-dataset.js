@@ -2,9 +2,8 @@ const fs = require('fs'),
   gm = require('gm'),
   csvParser = require('csv-parse'),
   path = require('path'),
-  mkdirp = require('mkdirp')
-
-promisify = require('util').promisify
+  mkdirp = require('mkdirp'),
+  promisify = require('util').promisify
 
 const fsUnlink = promisify(fs.unlink)
 
