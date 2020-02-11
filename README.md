@@ -1,7 +1,7 @@
-# PAN dataset generator
+# PAN image dataset generator
 
 ## Why this?
-  This is for anyone who's looking to train a ML model on PAN card dataset. 
+  This is for anyone who's looking to train a ML model on PAN card images.
 
 ## Setup
 
