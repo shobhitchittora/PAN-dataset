@@ -9,7 +9,9 @@
   2. Clone the project, navigate to the project directory and run `npm i`.
   3. Now run `npm run dataset` to generate the dataset.
 
+## Download dataset
 
+[Download link 📂](https://github.com/shobhitchittora/PAN-dataset/raw/master/assets/pan-dataset.zip)
 
 ## Sample of the PAN Card generated
 
