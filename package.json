@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dataset": "node create-dataset.js",
+    "dataset": "node create-dataset.js && npm run zip",
+    "zip": "zip -r ./assets/pan-dataset.zip dataset/",
     "clean": "rm -rf dataset && mkdir dataset",
     "sharpen": "node sharpen.js",
     "text": "node text.js",
